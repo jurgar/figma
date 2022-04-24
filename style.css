@@ -1,0 +1,136 @@
+body{
+    background-color: #e3e3e3;
+    margin: 60px 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+header, main, footer{
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#button, header a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    font-size: 20px;
+    text-align: end;
+}
+
+#sign-up{
+    color: rgb(238, 122, 167);
+}
+
+#launching{
+    color: rgb(238, 122, 167);
+    margin-top: 150px;
+}
+
+main h1{
+    font-size: 100px;
+    margin-top: 0;
+    
+}
+
+main section{
+    display: flex;
+    margin:30px;
+
+}
+
+#text{
+    color: gray;
+    padding: 20px;
+    font-size:20px;
+    margin:50px 10px
+
+}
+#button{
+   
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    border-image: linear-gradient(to right, red , yellow) 1;
+    border: 2px solid ;
+}
+
+.free-nft{
+    background-image:url(background.svg);
+    background-repeat: no-repeat;
+    padding: 120px;
+}
+.free-nft-text{
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.auction{
+    margin: 100px 25px;
+    
+
+}
+.auction p{
+    color: gray;
+}
+.opensea{
+    font-size: 17px;
+    margin-left: 0;
+    margin-right: 0;
+    text-decoration: underline;
+    color: gray;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    display: block;
+    background-color: #e3e3e3;
+    border-radius: 0.5rem;
+    width: 22%;  
+}
+
+.card a{
+    margin: 0 20px;
+}
+.gloop{
+    color: orange;
+}
+
+.date{
+    color: gray;
+}
+
+hr{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    border-style: inset;
+    border-width: 1px;
+    border:0.5px solid rgb(211, 208, 208);
+}
+
+.nft-text{
+    font-size: 60px;
+}
+
+.about, .about a{
+    display: flex;
+    justify-content:space-between;
+    text-decoration: none;
+    margin:10px;
+  
+}
