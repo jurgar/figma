@@ -64,7 +64,7 @@ main section{
 .free-nft{
     background-image:url(background.svg);
     background-repeat: no-repeat;
-    padding: 120px;
+    padding: 160px;
 }
 .free-nft-text{
     margin: 15px;
@@ -101,11 +101,11 @@ main section{
     display: block;
     background-color: #e3e3e3;
     border-radius: 0.5rem;
-    width: 22%;  
+    width: 16.5%;  
 }
 
 .card a{
-    margin: 0 20px;
+    margin: 0 18px;
 }
 .gloop{
     color: orange;
@@ -127,10 +127,91 @@ hr{
     font-size: 60px;
 }
 
-.about, .about a{
-    display: flex;
-    justify-content:space-between;
-    text-decoration: none;
+footer nav{
     margin:10px;
-  
 }
+.fa::before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    color: gray;
+    -webkit-font-smoothing-antialiased;
+    margin: 10px;
+}
+
+.nav-right{
+    display: flex;
+}
+footer h4{
+    margin: 50px;
+    
+}
+footer ul li{
+    padding: 10px;
+}
+
+footer{
+    width: 95%;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+
+
+@media screen and (max-width:768px){
+    body{
+        background-color: white;
+    }
+
+    .logo{
+        width: 750px;
+        margin: 0 auto; 
+    }
+
+    header nav div{
+        display: none;
+    }
+
+    main section div{
+        text-align: left;
+    }
+
+    main section h1{
+        font-size: 80px;
+        display: flex;
+     }
+
+    .free-nft{
+        background-image:url(background.svg);
+        width:100%;
+    }
+
+    .icons{
+        display: block;
+        justify-content: space-between;
+        margin-right: 40px;
+        
+    }
+    .card{
+        width:100%;
+        margin: 30px;
+    }
+       
+    .nav-left{
+       text-align: center;
+
+    }
+
+    .copy{
+      display: none;
+}
+    .copyright{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+}
+   
